@@ -34,5 +34,7 @@ PRODUCT_MODEL := moto g(7) play
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=channel
 
-# StyxOS Variant
+# StyxOS
 STYX_BUILD_VARIANT := RELEASE
+PRODUCT_PRODUCT_PROPERTIES += \
+    org.styxproject.maintainer=Amy Grace
